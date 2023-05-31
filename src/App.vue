@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 import VFSHeader from '@/components/Header.vue'
 import VFSNavbar from '@/components/Navbar.vue'
+import RCTMessageOfTheDay from '@/components/MessageOfTheDay.vue'
 
 // todo import appInfoStore
 
@@ -12,9 +13,11 @@ import VFSNavbar from '@/components/Navbar.vue'
 
     <header class="wrapper container columns">
         <VFSHeader title="A sample app" />
+        
         <VFSNavbar />
     </header>
     <main>
+        <RCTMessageOfTheDay size="23"> My Message of the day is: Hail Venom </RCTMessageOfTheDay>
         <RouterView />
     </main>
 
@@ -22,8 +25,9 @@ import VFSNavbar from '@/components/Navbar.vue'
 <style>
 
     header {
-        background: #D10034;
+        background: #b502e2;
         flex-direction: column;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         align-items: center;
         justify-content: space-between;
         box-shadow: 0 4px 5px -5px #222;

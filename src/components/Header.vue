@@ -28,7 +28,7 @@ Copyright (c) 2022-2023. Kibble Game Studios Inc. All Rights Reserved.
 <template>
 
     <section class="container left">
-        <img alt="VFS Logo" class="logo" src="@/assets/vfs_logo.png" width="125" height="125" @click="$router.push('/')"/>
+        <img alt="VFS Logo" class="logo" src="@/assets/venom.png" width="200" height="125" @click="$router.push('/')"/>
         <div class="title item">
             <h1>{{ infoStore.name }}</h1>
             <h4>{{ subtitle }} {{ infoStore.version }}</h4>

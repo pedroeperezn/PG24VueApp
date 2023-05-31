@@ -23,6 +23,12 @@ const router = createRouter({
             path:"/info",
             name:"Info",
             component: () => import('@/routes/Vue3InfoView.vue')
+        },
+        {
+            path:"/AdminView",
+            name:"Admin",
+            component: () => import('@/routes/AdminView.vue')
+
         }
     ]
 });
