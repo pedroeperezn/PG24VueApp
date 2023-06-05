@@ -2,7 +2,25 @@
 VFS VUE Single File Component
 Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
 -->
-<script setup>
+<script>
+
+    import Controller from '@/plugins/controller'
+
+    class AdminViewController extends Controller {
+
+        constructor( name, subComponentList = []) {
+            super( name, subComponentList );
+            this.vm = {
+                name: 'Admin View'
+            }
+
+            this.props = {
+                name: String,
+            }
+        }
+    }
+    
+    export default new AdminViewController('Admin')
 
 const TRECEvent = 
 {

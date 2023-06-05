@@ -2,33 +2,24 @@
 <VFSNavbar />
 @copyright (c) 2022-2023. Kibble Game Studios Inc. All Rights Reserved.
 -->
-<script>
-    import { RouterLink, RouterView } from 'vue-router'
+<script setup>
 
-    import Controller from '@/plugins/controller'
+    import {RouterLink} from 'vue-router'
 
-    import { useInfoStore } from '@/stores/infoStore.js'
-    import { useModelStore } from '@/stores/sampleStore.js'
+//    import Controller from '@/plugins/controller'
 
-    class NavbarController extends Controller {
+//    import { useInfoStore } from '@/stores/infoStore.js'
+//    import { useModelStore } from '@/stores/sampleStore.js'
 
-        constructor( name, subComponentList = []) {
-            super( name, subComponentList )
-            this.vm = {
-                navMenu:[
+                const navMenu = [
                     { path:"/", section: "Home" },
                     { path:"/about", section: "About" },
                     { path:"/info", section: "Info" },
                     { path: "/AdminView", section: "Admin View"}
-                ]
-            }
+                ];
+    
 
-            this.injectStore( useInfoStore )
-                .injectStore( useModelStore )
-        }
-    }
 
-    export default new NavbarController('VFSNavbar');
 
 </script>
 <template>
@@ -36,7 +27,7 @@
     <nav class="navbar">
         <ul class="menu">
             <li v-for="(item, i) in navMenu" :key="i">
-                <router-link :to="item.path" class="menu-item">{{ item.section }}</router-link>
+                <RouterLink :to="item.path" class="menu-item">{{ item.section }}</RouterLink>
             </li>
         </ul>
     </nav>
