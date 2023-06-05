@@ -6,12 +6,12 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
 
     import Controller from '@/plugins/controller'
 
-    class TestViewController extends Controller {
+    class ChartViewController extends Controller {
 
         constructor( name, subComponentList = []) {
             super( name, subComponentList );
             this.vm = {
-                name: 'Test View'
+                name: 'Chart View'
             }
 
             this.props = {
@@ -20,18 +20,18 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
         }
     }
     
-    export default new TestViewController('Test')
+    export default new ChartViewController('Test')
 
 </script>
 <template>
 
     <section class="flexbox columns about">
-        <h1 class="flexitem left title">Test View</h1>
+        <h1 class="flexitem left title">Chart View</h1>
         <div class="flexitem dialog">
             <div class="flexitem dialog">
 
                 <div class="flexbox">
-                    <p>Hello Test View</p>
+                    <p>Hello Chart View</p>
                 </div>
 
                 <div class="flexitem">

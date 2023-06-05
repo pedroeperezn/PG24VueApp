@@ -16,7 +16,9 @@
                     { path:"/about", section: "About" },
                     { path:"/info", section: "Info" },
                     { path: "/AdminView", section: "Admin View"},
+                    { path: "/ChartView", section: "Chart View"},
                     { path: "/TestView", section: "Test View"}
+                    
                 ];
     
 
