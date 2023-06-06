@@ -1,0 +1,17 @@
+# PG24Pedro Telemetry Records App
+
+###
+Working on: Chart view, Test view (for testing new components), Admin View and Record Edit View. Also connecting to pinia store
+
+###
+Usage: use command npm run dev to open the app on: 
+
+http://localhost:5173/
+
+###
+Caveats:
+Still figuring out how to connect charts and modify the vue views. 
+
+Github Repo:
+
+https://github.com/pedroeperezn/PG24VueApp.git
