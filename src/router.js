@@ -2,6 +2,8 @@
 VUE App's MAIN Component.
 Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 */
+/* Vue App -> 2023 PG24Pedro */
+
 'use strict';
 
 // import Vue from 'vue'

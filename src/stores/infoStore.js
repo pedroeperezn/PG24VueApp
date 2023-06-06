@@ -2,6 +2,7 @@
 Pinia Data Store.
 Copyright (c) 2023. Scott Henshaw, Kibble Game Studios Inc. All Rights Reserved.
 */
+/* Vue App -> 2023 PG24Pedro */
 import { defineStore } from 'pinia'
 
 export const useInfoStore = defineStore('info', {

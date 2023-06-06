@@ -2,6 +2,11 @@
 VFS VUE Single File Component
 Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
 -->
+
+<!--
+Vue App -> 2023 PG24Pedro pg24pedro@vfs.com
+-->
+
 <script>
 
     import Controller from '@/plugins/controller'

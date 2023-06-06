@@ -1,3 +1,7 @@
+<!--
+Vue App -> 2023 PG24Pedro pg24pedro@vfs.com
+-->
+
 <template>
     <Bar
       id="my-chart-id"

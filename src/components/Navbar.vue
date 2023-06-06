@@ -2,6 +2,12 @@
 <VFSNavbar />
 @copyright (c) 2022-2023. Kibble Game Studios Inc. All Rights Reserved.
 -->
+
+<!--
+Vue App -> 2023 PG24Pedro pg24pedro@vfs.com
+-->
+
+
 <script setup>
 
     import {RouterLink} from 'vue-router'
