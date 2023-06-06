@@ -41,6 +41,12 @@ const router = createRouter({
             name:"Chart",
             component: () => import('@/routes/ChartView.vue')
 
+        },
+        {
+            path:"/RecordEditView",
+            name:"RecordEdit",
+            component: () => import('@/routes/RecordEditView.vue')
+
         }
     ]
 });

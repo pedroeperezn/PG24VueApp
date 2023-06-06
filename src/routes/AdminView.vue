@@ -67,7 +67,7 @@ const recordList = [];
 
 const OneLine = ( aRec ) =>
 {
-    const theLine =  `@${aRec.deltaTime}`
+    var theLine =  `@${aRec.deltaTime}`
     theLine += `Player @${aRec.position.x},@${aRec.position.z}`
     theLine += `${EventsToString(aRec.eventId)}`
 

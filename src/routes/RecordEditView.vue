@@ -5,14 +5,13 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
 <script>
 
     import Controller from '@/plugins/controller'
-    import BarChart from '@/components/BarChart.vue'
 
-    class TestViewController extends Controller {
+    class RecordEditViewController extends Controller {
 
         constructor( name, subComponentList = []) {
             super( name, subComponentList );
             this.vm = {
-                name: 'Test View'
+                name: 'Record Edit'
             }
 
             this.props = {
@@ -21,9 +20,7 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
         }
     }
     
-    export default new TestViewController('Test')
-
-    
+    export default new RecordEditViewController('Record Edit')
 
 </script>
 <template>
@@ -34,7 +31,7 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
             <div class="flexitem dialog">
 
                 <div class="flexbox">
-                    <p>Hello Test View</p>
+                    <p>Hello Record edit View</p>
                 </div>
 
                 <div class="flexitem">
@@ -42,9 +39,9 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
                 </div>
             </div>
         </div>
-    </section>
 
-    <BarChart />
+
+    </section>
 
 </template>
 <style scoped>

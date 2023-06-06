@@ -20,7 +20,7 @@ Copyright (c) 2018-2023. Scott Henshaw All Rights Reserved.
         }
     }
     
-    export default new ChartViewController('Test')
+    export default new ChartViewController('Chart')
 
 </script>
 <template>
